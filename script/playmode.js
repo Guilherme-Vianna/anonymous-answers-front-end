@@ -3,5 +3,5 @@ playButton.addEventListener("click", Play);
 
 function Play() {
   console.log("Vamos responder");
-  window.location.replace("http://localhost:5500/answer.html");
+  window.location.replace("answer.html");
 }

@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/questions";
+const url = "http://anonquestions.azurewebsites.net/questions";
 const question = document.getElementById("question");
 
 const alt1 = document.getElementById("alt1");
@@ -27,9 +27,9 @@ async function getAllQuestions() {
 getAllQuestions();
 
 function CreateQuestion() {
-  window.location.replace("http://localhost:5500/lose.html");
+  window.location.replace("lose.html");
 }
 
 function Win() {
-  window.location.replace("http://localhost:5500/win.html");
+  window.location.replace("win.html");
 }

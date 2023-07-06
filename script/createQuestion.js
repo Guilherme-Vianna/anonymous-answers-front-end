@@ -8,7 +8,7 @@ const alt3 = document.getElementById("alt3");
 const ans = document.getElementById("ans");
 
 async function CreateQuestion() {
-  await fetch("http://localhost:3000/questions/create", {
+  await fetch("http://anonquestions.azurewebsites.net/questions/create", {
     method: "POST",
     headers: {
       Accept: "application/json",

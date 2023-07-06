@@ -1,4 +1,4 @@
-const url = "http://anonquestions.azurewebsites.net/questions";
+const url = "https://anonquestions.azurewebsites.net/questions";
 const question = document.getElementById("question");
 
 const alt1 = document.getElementById("alt1");
